@@ -15,8 +15,12 @@ for(let i = 1; i <= 100; i ++){
 
     console.log(i)
     let boxEl = document.createElement('div');
-    boxEl.className = `box ${bgBox} d-flex justify-content-center align-items-center`;
+    boxEl.className = `box ${bgBox} d-flex justify-content-center align-items-center text-uppercase`;
     console.log(bgBox)
-    boxEl.innerHTML =i;
+    if (bgBox === 'box-normal'){
+        boxEl.innerHTML = i;
+    } else {
+        boxEl.innerHTML = bgBox;
+    }
     wrapperEl.append(boxEl)
 }

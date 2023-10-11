@@ -17,6 +17,8 @@ h1{
 #wrapper{
     width: 1200px;
     margin: 50px auto;
+    margin-bottom: 0;
+    padding-bottom:100px;
 }
 .box{
     width:100px;
