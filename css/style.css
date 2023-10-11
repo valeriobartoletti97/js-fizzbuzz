@@ -1,0 +1,10 @@
+:root {
+	--color-my-bg-main: #083b4c;
+	--color-my-bg-fizz: #0cd6a1;
+	--color-my-bg-buzz: #ffd166;
+	--color-my-bg-fizzbuzz: #f0466f;
+}
+
+main{
+    background-color: var(--color-my-bg-main);
+}
