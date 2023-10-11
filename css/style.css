@@ -1,5 +1,6 @@
 :root {
 	--color-my-bg-main: #083b4c;
+    --color-my-bg-box: #1389b2;
 	--color-my-bg-fizz: #0cd6a1;
 	--color-my-bg-buzz: #ffd166;
 	--color-my-bg-fizzbuzz: #f0466f;
@@ -8,3 +9,29 @@
 main{
     background-color: var(--color-my-bg-main);
 }
+
+h1{
+    font-size: 5em;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: 50px auto;
+}
+.box{
+    width:100px;
+    height: 100px;
+}
+.box-normal{
+    background-color: var(--color-my-bg-box);
+}
+.fizz{
+    background-color: var(--color-my-bg-fizz);
+}
+.buzz{
+    background-color: var(--color-my-bg-buzz);
+}
+.fizzbuzz{
+    background-color: var(--color-my-bg-fizzbuzz);
+}
+
